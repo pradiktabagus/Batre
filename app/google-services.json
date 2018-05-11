@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "870395730152",
+    "firebase_url": "https://batre-30d5a.firebaseio.com",
+    "project_id": "batre-30d5a",
+    "storage_bucket": "batre-30d5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870395730152:android:b28f5f319462aa87",
+        "android_client_info": {
+          "package_name": "com.traveller.badget.batre"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870395730152-ti9mse767eib523p4orcflbp0iegn4o6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.traveller.badget.batre",
+            "certificate_hash": "d31890ba00d332165fc64adde122b52a4083011c"
+          }
+        },
+        {
+          "client_id": "870395730152-sfsvn209u6bkfhjclbfbud26pngv667n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWa1Pjjy9ZCKK_Z-hpzc9OtVx0XUAfteo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870395730152-sfsvn209u6bkfhjclbfbud26pngv667n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
