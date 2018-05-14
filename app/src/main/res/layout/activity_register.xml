@@ -4,6 +4,169 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/blueGray"
     tools:context=".RegisterActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="@color/darkGrayLogin"
+            android:orientation="vertical">
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blueGray"
+                android:fontFamily="@font/slabo_regular"
+                android:text="Our battered suitcases were piled on the sidewalk again; we had longer ways to go. But no matter, the road is life.\n                                                             -Jack Kerouac"/>
+        </LinearLayout>
+        <View android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@drawable/shadow"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_username" />
+
+                <EditText
+                    android:id="@+id/username"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/color_background_login"
+                    android:drawablePadding="15dp"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/slabo_regular"
+                    android:hint="USERNAME"
+                    android:inputType="text"
+                    android:maxLength="120"
+                    android:outlineProvider="none" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_password" />
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/color_background_login"
+                    android:fontFamily="@font/slabo_regular"
+                    android:textSize="16sp"
+                    android:hint="EMAIL"
+                    android:inputType="textPassword"
+                    android:maxLength="120"
+                    android:outlineProvider="none" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_password" />
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/color_background_login"
+                    android:fontFamily="@font/slabo_regular"
+                    android:textSize="16sp"
+                    android:hint="PASSWORD"
+                    android:inputType="textPassword"
+                    android:maxLength="120"
+                    android:outlineProvider="none" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_password" />
+
+                <EditText
+                    android:id="@+id/retypepassword"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/color_background_login"
+                    android:fontFamily="@font/slabo_regular"
+                    android:textSize="16sp"
+                    android:hint="RETYPE PASSWORD"
+                    android:inputType="textPassword"
+                    android:maxLength="120"
+                    android:outlineProvider="none" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonRegister"
+                android:layout_width="120dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="30dp"
+                android:textSize="14sp"
+                android:background="@drawable/color_background_login"
+                android:fontFamily="@font/slabo_regular"
+                android:text="Register" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/slabo_regular"
+                    android:text="already account, please" />
+
+                <TextView
+                    android:id="@+id/textViewBtnLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toEndOf="@+id/textViewLogin"
+                    android:fontFamily="@font/roboto_slab_regular"
+                    android:text="Login"
+                    android:textColor="#263238"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
